@@ -1,0 +1,100 @@
+body{
+    background-image: url(./fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    height: 450px;
+}
+
+
+.calculadora{
+    box-shadow: rgba(8, 9, 94, 0.281) 5px 5px, rgba(8, 9, 94, 0.281) 10px 10px,
+     rgba(8, 9, 94, 0.281) 15px 15px, rgba(8, 9, 94, 0.281) 20px 20px, rgba(8, 9, 94, 0.281) 25px 25px;
+    background-color: #e2ebed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #e5e4e2;
+    border-radius: 15px;
+    height: 210px;
+    width: 105px;
+
+    }
+
+#display{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 10px;
+    margin-top: -7px;
+    height: 68px;
+    width: 103px;
+    margin-left: 1px;
+    background-color: #00bfff ;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
+}
+
+#display h5{
+    display: flex;
+    margin-right: 8px;
+    color: white;
+
+}
+
+#display p{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+
+}
+
+.botoes{
+    display:flex;
+    justify-content: center;
+    height: 25px;
+    width: 100px;
+    
+}
+
+.botao{
+    border-radius: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    width: 25%;
+}
+
+
+.botao:hover {
+    background-color: aqua;
+}
+
+#delete:hover{
+    background-color: red;
+}
+
+#result {
+    width:50%;
+    border-radius: 30px;
+}
+
+#result:hover {
+    background-color: darkblue;
+}
+
+tbody{
+    background-color: white;
+    height: 125px;
+}
+
+

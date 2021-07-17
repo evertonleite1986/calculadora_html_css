@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+      <div class="calculadora">
+      <div>
+            
+            <header id="display">
+                  
+                  <h5>220+55-200<p>
+                        =75
+                  </p></h5>
+            </header>
+
+            <table>
+            
+      		<tbody>
+				<tr class="botoes">
+					<td class="botao" id="delete" onclick="clearScr()">C</td>
+          				<td class="botao" onclick="sendNum('*0.01')">(<td>
+          				<td class="botao" onclick="sendNum('/')">)</td>
+                        <td class="botao" onclick="sendNum('/')">x</td>
+				</tr>
+				<tr class="botoes">
+                              <td class="botao" onclick="sendNum('7')">7</td>
+                              <td class="botao" onclick="sendNum('8')">8</td>
+                              <td class="botao" onclick="sendNum('9')">9</td>
+                              <td class="botao" onclick="sendNum('-')">-</td>
+				</tr>
+				<tr class="botoes">
+			    		<td class="botao" onclick="sendNum('4')">4</td>
+			    		<td class="botao" onclick="sendNum('5')">5</td>
+			    		<td class="botao" onclick="sendNum('6')">6</td>
+                        <td class="botao" onclick="sendNum('+')">+</td>
+				</tr>
+				<tr class="botoes">
+                              <td class="botao" onclick="sendNum('1')">1</td>
+                              <td class="botao" onclick="sendNum('2')">2</td>
+                              <td class="botao" onclick="sendNum('3')">3</td>
+                              <td class="botao" onclick="sendNum('/')">/</td>
+				</tr>
+				<tr class="botoes" id="btFinal">
+                              <td class="botao" onclick="sendNum('.')">.</td>
+                              <td class="botao" onclick="sendNum('0')">0</td>
+                              <td class="botao" id="result" onclick="sendNum('=')">=</td>
+				</tr>
+            
+			</tbody>
+		</table>
+      
+      </div>
+      </div>
+</body>
+</html>
